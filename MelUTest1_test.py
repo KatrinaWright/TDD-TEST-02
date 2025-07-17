@@ -16,3 +16,6 @@ def test_hello_pass():
 # Problem 1 Tests
 def test_function_one():
     assert M1.function_1( 1 ) == True
+    
+def test_function_zero():
+    assert M1.function_1( 0 ) == False
