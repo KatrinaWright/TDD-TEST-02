@@ -19,3 +19,7 @@ def test_function_one():
     
 def test_function_zero():
     assert M1.function_1( 0 ) == False
+
+def test_function_three():
+    assert M1.function_1( 3 ) == True
+
