@@ -5,7 +5,7 @@ def hello_world():
     return "Hello!"
 
 def function_1(data):
-    return data in [1,2]
+    return True 
 
 def main():
     print("Function 1: ", function_1(1))
