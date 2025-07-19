@@ -23,3 +23,6 @@ def test_function_zero():
 def test_function_three():
     assert M1.function_1( 3 ) == True
 
+def test_function_ss():
+    assert M1.function_1( 15 ) == True
+
