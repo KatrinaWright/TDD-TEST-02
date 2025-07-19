@@ -26,3 +26,8 @@ def test_function_three():
 def test_function_ss():
     assert M1.function_1( 15 ) == True
 
+def test_function_list():
+    list = [ 1, 3, 6, 10, 15, 21, 28, 36, 45, 55] 
+    for num in list:
+        assert M1.function_1( num ) == True
+
