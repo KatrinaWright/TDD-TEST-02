@@ -31,3 +31,8 @@ def test_function_list():
     for num in list:
         assert M1.function_1( num ) == True
 
+
+# Problem 2 Tests
+def test_function2_short():
+    assert M1.function_2( "Understanding of agile testing best practices and processes.", "Testing for 15 years in agile environment" ) == {'testing': 1, 'agile': 1}
+
